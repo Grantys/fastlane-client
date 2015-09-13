@@ -7,7 +7,7 @@
             <div class='pull-left slantit'>
                 <ul class="info-menu left-links list-inline list-unstyled">
                     <li class="sidebar-toggle-wrap">
-                        <a href data-toggle="sidebar" class="sidebar_toggle" ng-click="app.settings.menuFolded = !app.settings.menuFolded; menuChatToggle('menu',app.settings.menuFolded) ">
+                        <a href data-toggle="sidebar" class="sidebar_toggle">
                             <i class="material-icons">menu</i>
                         </a>
                     </li>
@@ -27,17 +27,17 @@
                         </a> 
                    </li>
                    <li class="menu-profile-toggle tab hidden-sm hidden-xs ">
-                        <a href class="profile_toggle" ng-click="app.settings.menuProfile = !app.settings.menuProfile ">
+                        <a href class="profile_toggle">
                             <i class="material-icons">settings</i>
                         </a>
                     </li>
                     <li class="menu-profile-toggle tab hidden-sm hidden-xs ">
-                        <a href class="profile_toggle" ng-click="app.settings.menuProfile = !app.settings.menuProfile ">
+                        <a href class="profile_toggle">
                             <i class="material-icons">help</i>
                         </a>
                     </li>
                     <li class="menu-profile-toggle tab hidden-sm hidden-xs ">
-                        <a href class="profile_toggle" ng-click="app.settings.menuProfile = !app.settings.menuProfile ">
+                        <a href class="profile_toggle">
                             <i class="material-icons">lock</i>
                         </a>
                     </li>
