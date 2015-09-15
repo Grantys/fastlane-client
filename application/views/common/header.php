@@ -19,5 +19,6 @@
      <!-- Loading APP css -->
      <link rel="stylesheet" href="/custom/css/app.css">
      <link rel="stylesheet" href="/custom/css/material-icons.css">
+     <link rel="stylesheet" href="/custom/css/font-awesome.css">
   </head>
   <body>

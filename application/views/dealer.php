@@ -15,7 +15,7 @@
             </div>
             <div class="pull-left pagetitle">
                 <span class='line'></span>
-                <h1>Dashboard</h1>
+                <h1>Dealer</h1>
                 <div></div>
             </div>
             <div class='pull-right'>
@@ -91,7 +91,7 @@
                     <nav>
                         <!-- list -->
                             <ul class="wraplist wrapper-menu">
-                                <li class="active">
+                                <li>
                                     <a href="welcome" class="nosub">
                                         <i class="fa fa-dashboard"></i>
                                         <span class="title">Dashboard</span>
@@ -109,7 +109,7 @@
                                         <span class="title">Garage</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="active">
                                     <a href="dealer" class="nosub">
                                         <i class="material-icons">store</i>
                                         <span class="title">Dealer</span>
@@ -154,16 +154,67 @@
                             <div class="col-md-12 col-sm-12 col-xs-12 padding-right-30 padding-left-20">
                             <ol class="breadcrumb border">
                             <li>
-                                <a><i class="fa fa-home"></i>Dashboard</a>
+                                <a><i class="fa fa-home"></i>Dealer</a>
                             </li>
                             <li class="active">
-                                <strong>Home</strong>
+                                <strong>Regular</strong>
                             </li>
                             </ol>
                             </div>
                         </div>
                     </section>
                     <div class="clearfix"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <section class="box ">
+                            <header class="panel_header">
+                                <a href="profile"><h2 class="title pull-left">'71 Hemi Cuda</h2></a>
+                            </header>
+                            <div class="content-body">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                    <button type="button" class="btn btn-success btn">
+                                        32 000 <i class="fa fa-dollar"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <section class="box ">
+                            <header class="panel_header">
+                                <a href="profile"><h2 class="title pull-left">1971</h2></a>
+                            </header>
+                            <div class="content-body"> 
+                                Hemi Cuda
+                                <button type="button" class="btn btn-success btn">
+                                    98 000 <i class="fa fa-dollar"></i>
+                                </button>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <section class="box ">
+                            <header class="panel_header">
+                                <a href="profile"><h2 class="title pull-left">'71 Hemi Cuda</h2></a>
+                            </header>
+                            <div class="content-body">                
+                                <button type="button" class="btn btn-success btn">
+                                    55 000 <i class="fa fa-dollar"></i>
+                                </button>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <section class="box ">
+                            <header class="panel_header">
+                                <a href="profile"><h2 class="title pull-left">'71 Hemi Cuda</h2></a>
+                            </header>
+                            <div class="content-body">                
+                                <button type="button" class="btn btn-success btn">
+                                    105 000 <i class="fa fa-dollar"></i>
+                                </button>
+                            </div>
+                        </section>
+                    </div>
             </section>
         </section>
         <!-- END CONTENT -->

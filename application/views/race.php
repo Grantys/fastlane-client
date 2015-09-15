@@ -15,7 +15,7 @@
             </div>
             <div class="pull-left pagetitle">
                 <span class='line'></span>
-                <h1>Dashboard</h1>
+                <h1>Race</h1>
                 <div></div>
             </div>
             <div class='pull-right'>
@@ -91,13 +91,13 @@
                     <nav>
                         <!-- list -->
                             <ul class="wraplist wrapper-menu">
-                                <li class="active">
+                                <li>
                                     <a href="welcome" class="nosub">
                                         <i class="fa fa-dashboard"></i>
                                         <span class="title">Dashboard</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="active">
                                     <a href="race" class="nosub">
                                         <i class="fa fa-flag-checkered"></i>
                                         <span class="title">Race</span>
@@ -154,10 +154,10 @@
                             <div class="col-md-12 col-sm-12 col-xs-12 padding-right-30 padding-left-20">
                             <ol class="breadcrumb border">
                             <li>
-                                <a><i class="fa fa-home"></i>Dashboard</a>
+                                <a><i class="fa fa-home"></i>Race</a>
                             </li>
                             <li class="active">
-                                <strong>Home</strong>
+                                <strong>Random</strong>
                             </li>
                             </ol>
                             </div>
