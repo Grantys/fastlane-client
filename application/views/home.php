@@ -20,22 +20,36 @@
             </div>
             <div class='pull-right'>
                 <ul class="info-menu right-links list-inline list-unstyled">
-                  <li class="dropdown tab hidden-gxs hidden-xs " dropdown>
-                        <a href class="dropdown-toggle toggle" dropdown-toggle>
+                  <li class="dropdown">
+                        <a href="#" class="dropdown-toggle toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="material-icons">notifications</i>
                             <span class="badge badge-orange">3</span>
                         </a> 
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="home.php">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                       </ul>
                    </li>
-                   <li class="menu-profile-toggle tab hidden-sm hidden-xs ">
-                        <a href class="profile_toggle">
+                   <li class="dropdown">
+                        <a href="#" class="dropdown-toggle toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="material-icons">settings</i>
-                        </a>
-                    </li>
-                    <li class="menu-profile-toggle tab hidden-sm hidden-xs ">
-                        <a href class="profile_toggle">
+                        </a> 
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="home.php">Language</a></li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                        <a href="#" class="dropdown-toggle toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="material-icons">help</i>
-                        </a>
-                    </li>
+                        </a> 
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Help</a></li>
+                            <li><a href="home.php">F.A.Q</a></li>
+                            <li><a href="home.php">T&C</a></li>
+                       </ul>
+                   </li>
                     <li class="menu-profile-toggle tab hidden-sm hidden-xs ">
                         <a href class="profile_toggle">
                             <i class="material-icons">lock</i>
@@ -54,7 +68,7 @@
 <div class="page-container row-fluid">
 
       <!-- leftbar -->
-              <div class="page-sidebar">
+              <div class="page-sidebar expandit">
                   <!-- SIDEBAR - START -->
                 <!-- MAIN MENU - START -->
                 <perfect-scrollbar class="page-sidebar-wrapper" id="main-menu-wrapper" wheel-propagation="true" suppress-scroll-x="true" min-scrollbar-length="20" menuheight>
